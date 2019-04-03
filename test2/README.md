@@ -67,7 +67,7 @@ Adm --> (维护图书)
 
 ###     3.11 “借阅处理”用例
 
-<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 	<tbody>
 		<tr>
 			<td>
@@ -199,7 +199,7 @@ Adm --> (维护图书)
 
 ###     3.12 “归还处理”用例
 
-<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 	<tbody>
 		<tr>
 			<td>
@@ -284,8 +284,9 @@ Adm --> (维护图书)
 <br />
 
 ###     3.13 “预约处理”用例
+
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
@@ -374,7 +375,7 @@ Adm --> (维护图书)
 ###     3.21 “查阅借阅信息”用例
 
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
@@ -444,8 +445,9 @@ Adm --> (维护图书)
 </h3>
 
 ###     3.22 “图书预定”用例
+
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
@@ -526,7 +528,7 @@ Adm --> (维护图书)
 ###     3.23 “借书”用例
 
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
@@ -603,8 +605,9 @@ Adm --> (维护图书)
 </h3>
 
 ###     3.24 “还书”用例
+
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
@@ -671,7 +674,7 @@ Adm --> (维护图书)
 ###     3.31 “维护图书”用例
 
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
@@ -728,8 +731,9 @@ Adm --> (维护图书)
 </h3>
 
 ###     3.32 “维护读者信息”用例
+
 <h3>
-	<table style="width:70%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
+	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
 				<td>
