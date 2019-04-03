@@ -285,7 +285,6 @@ Adm --> (维护图书)
 
 ###     3.13 “预约处理”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -368,13 +367,9 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
-
-
 
 ###     3.21 “查阅借阅信息”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -442,11 +437,9 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
 
 ###     3.22 “图书预定”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -494,9 +487,9 @@ Adm --> (维护图书)
 					</p>
 					<p>
 						3、系统验证读者身份与预约条件；&nbsp;<br />
-4、系统记录读者图书预约信息，并修改图书的状态和此种书的可借（可预约）数量；<br />
-5、系统累加读者的借书（预约）数量；<br />
-6、读者重复步骤2，直到图书预定成功；
+                        4、系统记录读者图书预约信息，并修改图书的状态和此种书的可借（可预约）数量；<br />
+                        5、系统累加读者的借书（预约）数量；<br />
+                        6、读者重复步骤2，直到图书预定成功；
 					</p>
 				</td>
 			</tr>
@@ -523,11 +516,9 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
 
 ###     3.23 “借书”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -575,7 +566,7 @@ Adm --> (维护图书)
 					</p>
 					<p>
 						3、图书管理员完成借阅处理；&nbsp;<br />
-4、图书管理员将图书与借书卡拿给读者，借书完成；
+                        4、图书管理员将图书与借书卡拿给读者，借书完成；
 					</p>
 				</td>
 			</tr>
@@ -602,11 +593,10 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
+
 
 ###     3.24 “还书”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -669,11 +659,9 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
 
 ###     3.31 “维护图书”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -728,11 +716,9 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
 
 ###     3.32 “维护读者信息”用例
 
-<h3>
 	<table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000">
 		<tbody>
 			<tr>
@@ -787,4 +773,3 @@ Adm --> (维护图书)
 	</table>
 <br />
 <br />
-</h3>
