@@ -15,7 +15,6 @@
 |ISBN|varchar2(100)|主键|否||||
 |Name|varchar2(100)| |否||||
 |Memo|varchar2(100)| |是||||
-
 ***
 
 ## 2. 界面设计
