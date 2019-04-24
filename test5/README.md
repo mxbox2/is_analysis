@@ -87,10 +87,10 @@
 - 顺序图参见：借书顺序图
 - API接口如下：
 
-1. 获取全部分类
+1. getBooks的API
 
-- 功能：用于获取全部分类
-- 请求地址： http://[YOUR_DOMAIN]/v1/api/shop_cate
+- 功能：图书管理员在借阅处理时，输入图书的馆藏流水号，返回图书品种的信息
+- 请求地址： http://127.0.0.1/v1/api/getBooks
 - 请求方法：POST
 - 请求参数：
 
@@ -102,16 +102,17 @@
 - 返回实例：
 ```
 {
-    "info": "感谢您的支持。",
+    "info": "null",
     "data": {
-        "nickname": "O记_Mega可达鸭",
-        "uid": "14361",
-        "signature": "呀  一不小心就进化了",
-        "score1": "322",
-        "real_nickname": "O记_Mega可达鸭",
-        "title": "Lv3 转正",
-        "avatar128": "http://upload.opensns.cn/Uploads_Avatar_14361_58e4b58fccf81.jpg?imageMogr2/crop/!260x260a6a22/thumbnail/128x128!",
-        "avatar512": "http://upload.opensns.cn/Uploads_Avatar_14361_58e4b58fccf81.jpg?imageMogr2/crop/!260x260a6a22/thumbnail/512x512!"
+        "Bw_ID": "20194241",
+        "B_ID": "10020012",
+        "B_Name": "信息系统分析与设计",
+        "B_Author": "王晓敏",
+        "B_Price": "45",
+        "B_Pub": "清华大学出版社",
+        "Bw_Borrowdate": "2019-04-24",
+        "Bw_Returndate": "2019-06-24",
+        "Bw_Duedate": "2019-05-02",
     },
     "code": 200
 }
@@ -121,12 +122,21 @@
 |参数名称|说明|
 |:-------:|:-------------: |
 |Info|返回信息|
-|data|用户的个人信息|
+|data|借阅图书信息|
+|Bw_ID|借书编号,借出当前图书成功时，系统自动生成|
+|B_ID|馆藏流水号，需图书管理员输入|
+|B_Name|图书书名|
+|B_Author|图书作者|
+|B_Price|图书价格|
+|B_Pub|图书出版社|
+|Bw_Borrowdate|借书日期，借出当图书成功时，系统自动生成|
+|Bw_Returndate|归还日期，为空|
+|Bw_Duedate|应还日期，借书最长天数默认为2个月，所以由系统自动生成|
 |dodo|返回码|
 
-2. *******API
-- 功能：用于获取全部分类
-- 请求地址： http://[YOUR_DOMAIN]/v1/api/shop_cate
+2. getRead的API
+- 功能：用于获取读者信息
+- 请求地址： http://127.0.0.1/v1/api/getRead
 - 请求方法：POST
 - 请求参数：
 
@@ -138,16 +148,10 @@
 - 返回实例：
 ```
 {
-    "info": "感谢您的支持。",
+    "info": "null",
     "data": {
-        "nickname": "O记_Mega可达鸭",
-        "uid": "14361",
-        "signature": "呀  一不小心就进化了",
-        "score1": "322",
-        "real_nickname": "O记_Mega可达鸭",
-        "title": "Lv3 转正",
-        "avatar128": "http://upload.opensns.cn/Uploads_Avatar_14361_58e4b58fccf81.jpg?imageMogr2/crop/!260x260a6a22/thumbnail/128x128!",
-        "avatar512": "http://upload.opensns.cn/Uploads_Avatar_14361_58e4b58fccf81.jpg?imageMogr2/crop/!260x260a6a22/thumbnail/512x512!"
+        "R_ID": "20161041",
+        "R_Name": "李四",
     },
     "code": 200
 }
@@ -157,8 +161,9 @@
 |参数名称|说明|
 |:-------:|:-------------: |
 |Info|返回信息|
-|data|用户的个人信息|
+|data|读者的个人信息|
+|R_ID| 读者的借书卡号
+|R_Name|读者的姓名|
 |dodo|返回码|
 
 
- # is_analysis
