@@ -14,9 +14,11 @@ users --up-> (修改用户信息)
 users --up-> (修改密码)
 }
 package 业务用例集 {
-students -->(选择课程)
+students -->(课程列表)
+teachers ---->(课程列表)
+(课程列表) -->(选择课程)
 teachers ---> (评定成绩)
-teachers -->(选择课程)
+
 note right of (选择课程)
  老师先选，学生后选
  选择对应课程的学期

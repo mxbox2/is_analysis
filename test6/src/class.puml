@@ -10,6 +10,7 @@ class users {
 }
 class teachers{
     <b>teacher_id</b> （老师工号）
+    teacher_name（老师姓名）
     department （老师所属部门）
 }
 class students{
