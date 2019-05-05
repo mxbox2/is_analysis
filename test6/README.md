@@ -40,7 +40,7 @@
 - ### [“评定成绩”用例](./用例/评定成绩.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/评定成绩.html)
 - ### [“查看成绩”用例](./用例/查看成绩.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/查看成绩.html)
 - ### [“修改密码”用例](./用例/修改密码.md),[界面](https://github.com/mxbox2/is_analysis/blob/master/test6/界面/修改密码.png)
-- ### [“修改用户信息”用例](./用例/修改用户信息.md),[界面](https://github.com/mxbox2/is_analysis/blob/master/test6/界面/修改用户信息.md)
+- ### [“修改用户信息”用例](./用例/修改用户信息.md),[界面](https://github.com/mxbox2/is_analysis/blob/master/test6/界面/修改用户信息界面.md)
 - ### [“查看用户信息”用例](./用例/查看用户信息.md),[界面](https://github.com/mxbox2/is_analysis/blob/master/test6/界面/查看用户信息.png)
 - ### [“登出”用例](./用例/登出.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“登录”用例](./用例/登录.md),[界面](https://github.com/mxbox2/is_analysis/blob/master/test6/界面/login.png)
