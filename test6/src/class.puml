@@ -17,6 +17,7 @@ class students{
     class （班级）
     web_sum （网站正确与否汇总）
     term（学期）
+    major（专业）
 }
 students-|>users
 users <|-- teachers
